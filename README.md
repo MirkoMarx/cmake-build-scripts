@@ -4,8 +4,8 @@ This project contains command scripts for Windows and Linux to compile CMake pro
 
 All scripts are used in a uniform way.
 
-1. open the command line
-2. change to the directory where the build folder for the CMake project should be created. (Usually this is the main folder of the CMake project itself)
+1. Open the command line
+2. Move to the directory where the build folder for the CMake project should be created. (Usually this is the main folder of the CMake project itself)
 3. <code>&lt;build command&gt; &lt;relative path to folder where the CMakeLists.txt is located&gt;</code>
 
 ### Examples to compile on Linux
@@ -13,7 +13,7 @@ All scripts are used in a uniform way.
 - Assuming this project is cloned in ~/github/cmake-build-scripts.
 - Assuming the CMake project to be compiled is located in path ~/cmake-projects/foo_project.
 
-#### Crosscompilation on Windows for Android:
+#### Crosscompilation on Linux for Android:
 
 ```bash
 $ cd ~/cmake-projects/foo_project
