@@ -10,8 +10,8 @@ All scripts are used in a uniform way.
 
 ### Examples to compile on Linux
 
-- This project is cloned in ~/github/cmake-build-scripts.
-- The CMake project to be compiled is located in path ~/cmake-projects/foo_project.
+- Assuming this project is cloned in ~/github/cmake-build-scripts.
+- Assuming the CMake project to be compiled is located in path ~/cmake-projects/foo_project.
 
 #### Crosscompilation on Windows for Android:
 
@@ -24,8 +24,8 @@ In the current path a folder <code>build_android</code> is created in which the 
 
 ### Examples to compile on Windows
 
-- This project is cloned in D:\github\cmake-build-scripts.
-- The CMake project to be compiled is located in path D:\cmake-projects\foo_project.
+- Assuming this project is cloned in D:\github\cmake-build-scripts.
+- Assuming the CMake project to be compiled is located in path D:\cmake-projects\foo_project.
 
 #### Crosscompilation on Windows for Android:
 
