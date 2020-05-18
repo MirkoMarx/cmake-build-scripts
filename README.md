@@ -10,13 +10,13 @@ All scripts are used in a uniform way.
 
 ### Examples to compile on Linux
 
-- Assuming this project is cloned in ~/github/cmake-build-scripts.
-- Assuming the CMake project to be compiled is located in path ~/cmake-projects/foo_project.
+- Assuming this project is cloned in <code>~/github/cmake-build-scripts</code>.
+- Assuming the CMake project to be compiled is located in <code>~/cmake-projects/cmake_project</code>.
 
-#### Crosscompilation on Linux for Android:
+##### Crosscompilation on Linux for Android:
 
 ```bash
-$ cd ~/cmake-projects/foo_project
+$ cd ~/cmake-projects/cmake_project
 $ ../../github/cmake-build-scripts/build_android.sh .
 ```
 
@@ -24,13 +24,13 @@ In the current path a folder <code>build_android</code> is created in which the 
 
 ### Examples to compile on Windows
 
-- Assuming this project is cloned in D:\github\cmake-build-scripts.
-- Assuming the CMake project to be compiled is located in path D:\cmake-projects\foo_project.
+- Assuming this project is cloned in <code>D:\github\cmake-build-scripts</code>.
+- Assuming the CMake project to be compiled is located in <code>D:\cmake-projects\cmake_project</code>.
 
-#### Crosscompilation on Windows for Android:
+##### Crosscompilation on Windows for Android:
 
 ```bash
-$ cd D:\cmake-projects\foo_project
+$ cd D:\cmake-projects\cmake_project
 $ ..\..\github\cmake-build-scripts\build_android.bat .
 ```
 
